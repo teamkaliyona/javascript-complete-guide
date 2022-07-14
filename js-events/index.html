@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title> JS Events </title>
+  </head>
+  <body onload="requestToFillForm()">
+    <h2> Welcome to Kaliyona </h2>
+    <form>
+		<label id="nameLabel" >Enter your Name </label>
+		<input id="name" type="text" name="name" onmouseover="changeColor()"/> 
+		<br><br>
+		<label>Enter the Course </label>
+		<input id="course" type="text" name="course" onmouseout="isMandatory()"/>
+		<br><br>
+    <button onclick="submitMessage()"> Submit </button>
+    <br/><br/>
+      <h4 id="msg"></h4>
+	</form>
+	
+	<script  src="./script.js"></script>
+  </body>
+</html>
